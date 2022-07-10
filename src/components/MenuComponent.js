@@ -255,8 +255,8 @@ class Menu extends Component {
   render() {
     const menu = this.state.staffs.map((staffs) => {
       return (
-        <div key={staffs.id} className="col-4 col-s-6 mt-5">
-          <Media tag="li">
+        <div key={staffs.id} className="col-lg-4 col-sm-6 mt-5">
+          <Media tag="li" className="list-unstyled">
             {/* <Media left middle>
               <Media object src={staffs.image} alt={staffs.name} />
             </Media> */}
@@ -269,10 +269,8 @@ class Menu extends Component {
     });
 
     return (
-      <div className="container">
-        <div className="row">
-          <Media list>{menu}</Media>
-        </div>
+      <div class="container">
+        <div class="row">{menu}</div>
       </div>
     );
   }
