@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Component } from "react";
 import { Navbar, NavbarBrand } from "reactstrap";
+import Menu from "./components/MenuComponent";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
             <NavbarBrand href="/">Ứng dụng quản lý nhân sự v1.0</NavbarBrand>
           </div>
         </Navbar>
+        <Menu />
       </div>
     );
   }

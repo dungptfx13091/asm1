@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Media } from "reactstrap";
+import "../staffs";
 
 class Menu extends Component {
   constructor(props) {
@@ -13,7 +14,11 @@ class Menu extends Component {
           doB: "1999-01-01T08:59:00.000Z",
           salaryScale: 1.1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[0],
+          department: {
+            id: "Dept01",
+            name: "Sale",
+            numberOfStaff: 1,
+          },
           annualLeave: 1,
           overTime: 1,
           image: "/assets/images/alberto.png",
@@ -24,7 +29,11 @@ class Menu extends Component {
           doB: "2000-01-01T08:59:00.000Z",
           salaryScale: 1.2,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[1],
+          department: {
+            id: "Dept02",
+            name: "HR",
+            numberOfStaff: 3,
+          },
           annualLeave: 2,
           overTime: 3,
           image: "/assets/images/alberto.png",
@@ -35,7 +44,11 @@ class Menu extends Component {
           doB: "2001-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[3],
+          department: {
+            id: "Dept04",
+            name: "IT",
+            numberOfStaff: 1,
+          },
           annualLeave: 4,
           overTime: 5,
           image: "/assets/images/alberto.png",
@@ -46,7 +59,11 @@ class Menu extends Component {
           doB: "2002-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[2],
+          department: {
+            id: "Dept03",
+            name: "Marketing",
+            numberOfStaff: 2,
+          },
           annualLeave: 6,
           overTime: 7,
           image: "/assets/images/alberto.png",
@@ -57,7 +74,11 @@ class Menu extends Component {
           doB: "1999-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[2],
+          department: {
+            id: "Dept03",
+            name: "Marketing",
+            numberOfStaff: 2,
+          },
           annualLeave: 8,
           overTime: 1,
           image: "/assets/images/alberto.png",
@@ -68,7 +89,11 @@ class Menu extends Component {
           doB: "2003-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[4],
+          department: {
+            id: "Dept05",
+            name: "Finance",
+            numberOfStaff: 11,
+          },
           annualLeave: 9,
           overTime: 10,
           image: "/assets/images/alberto.png",
@@ -79,7 +104,11 @@ class Menu extends Component {
           doB: "2003-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[4],
+          department: {
+            id: "Dept05",
+            name: "Finance",
+            numberOfStaff: 11,
+          },
           annualLeave: 9,
           overTime: 10,
           image: "/assets/images/alberto.png",
@@ -90,7 +119,11 @@ class Menu extends Component {
           doB: "2003-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[2],
+          department: {
+            id: "Dept03",
+            name: "Marketing",
+            numberOfStaff: 2,
+          },
           annualLeave: 9,
           overTime: 10,
           image: "/assets/images/alberto.png",
@@ -101,7 +134,11 @@ class Menu extends Component {
           doB: "2003-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[3],
+          department: {
+            id: "Dept04",
+            name: "IT",
+            numberOfStaff: 1,
+          },
           annualLeave: 9,
           overTime: 10,
           image: "/assets/images/alberto.png",
@@ -112,7 +149,11 @@ class Menu extends Component {
           doB: "2003-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[4],
+          department: {
+            id: "Dept05",
+            name: "Finance",
+            numberOfStaff: 11,
+          },
           annualLeave: 9,
           overTime: 10,
           image: "/assets/images/alberto.png",
@@ -123,7 +164,11 @@ class Menu extends Component {
           doB: "2003-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[4],
+          department: {
+            id: "Dept05",
+            name: "Finance",
+            numberOfStaff: 11,
+          },
           annualLeave: 9,
           overTime: 10,
           image: "/assets/images/alberto.png",
@@ -134,7 +179,11 @@ class Menu extends Component {
           doB: "2003-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[4],
+          department: {
+            id: "Dept05",
+            name: "Finance",
+            numberOfStaff: 11,
+          },
           annualLeave: 9,
           overTime: 10,
           image: "/assets/images/alberto.png",
@@ -145,7 +194,11 @@ class Menu extends Component {
           doB: "2003-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[4],
+          department: {
+            id: "Dept05",
+            name: "Finance",
+            numberOfStaff: 11,
+          },
           annualLeave: 9,
           overTime: 10,
           image: "/assets/images/alberto.png",
@@ -156,7 +209,11 @@ class Menu extends Component {
           doB: "2003-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[4],
+          department: {
+            id: "Dept05",
+            name: "Finance",
+            numberOfStaff: 11,
+          },
           annualLeave: 9,
           overTime: 10,
           image: "/assets/images/alberto.png",
@@ -167,7 +224,11 @@ class Menu extends Component {
           doB: "2003-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[4],
+          department: {
+            id: "Dept05",
+            name: "Finance",
+            numberOfStaff: 11,
+          },
           annualLeave: 9,
           overTime: 10,
           image: "/assets/images/alberto.png",
@@ -178,7 +239,11 @@ class Menu extends Component {
           doB: "2003-01-01T08:59:00.000Z",
           salaryScale: 1,
           startDate: "2019-04-30T08:59:00.000Z",
-          department: DEPARTMENTS[4],
+          department: {
+            id: "Dept05",
+            name: "Finance",
+            numberOfStaff: 11,
+          },
           annualLeave: 9,
           overTime: 10,
           image: "/assets/images/alberto.png",
@@ -190,11 +255,11 @@ class Menu extends Component {
   render() {
     const menu = this.state.staffs.map((staffs) => {
       return (
-        <div key={staffs.id} className="col-12 mt-5">
-          <Media tag={li}>
-            <Media left middle>
+        <div key={staffs.id} className="col-4 col-s-6 mt-5">
+          <Media tag="li">
+            {/* <Media left middle>
               <Media object src={staffs.image} alt={staffs.name} />
-            </Media>
+            </Media> */}
             <Media body className="ml-5">
               <Media heading>{staffs.name}</Media>
             </Media>
